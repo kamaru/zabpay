@@ -1,0 +1,164 @@
+body, h1, h2, h3, p{
+    font-family: 'Open Sans', sans-serif;
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #00afe8;
+}
+#overlay .spinner {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+img {
+    outline: none;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+.fist-slide{
+    height: 100vh;
+    background: #00afe8;
+}
+.nav-menu a {
+    float: left;
+    color: #fff;
+    font-size: 1.2em;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.nav-menu a:hover{
+        margin-top: -10px;
+}
+.screen1 {
+    width: 300px;
+    position: absolute;
+    left: 19%;
+    top: 76px;
+    z-index: 99;
+    transition: 0.8s;
+}
+.screen1:hover{
+    top: 60px;
+}
+.screen2 {
+    position: absolute;
+    left: 11%;
+    top: 20px;
+    transition: 0.8s;
+}
+.screen2:hover{
+    left: 7%;
+    top: 10px;
+}
+.screen3 {
+    position: absolute;
+    top: 200px;
+    left: 5%;
+    transition: 0.8s;
+}
+.screen3:hover{
+    left: 3%;
+}
+.screen4 {
+    position: absolute;
+    top: 150px;
+    left: 51%;
+    transition: 0.8s;
+}
+.screen4:hover{
+    left: 61%;
+}
+h3.title {
+    font-size: 3em;
+    color: #fff;
+    margin-top: 150px;
+    padding-left: 50px;
+}
+h3.title span{
+    font-size: 1.5em;
+}
+.btn-group {
+    margin-left: 52px;
+}
+.btn-group button {
+    padding: 15px;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 6px !important;
+    font-size: 1.2em;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn-group button:hover{
+    background: #fff;
+    border: 1px solid #fff;
+    color: #00afe8;
+}
+
+/* second slide */
+.second-slide {
+    background: #eee;
+    padding: 40px;
+    min-height: 100vh;
+}
+.second-slide h2 {
+    margin-top: 10%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.tade-pitcoin {
+    padding: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.tade-pitcoin img {
+    padding: 0 20px;
+    transition: 0.8s;
+}
+.tade-pitcoin img:nth-child(2), .tade-pitcoin img:nth-child(4){
+        margin-top: -100px;
+}
+.tade-pitcoin img:hover{
+    margin-top: -50px;
+}
+
+.pagination{
+position: fixed;
+    right: 31px;
+    top: 45%;
+    width: 10px;
+    display: block;align-content: }
+
+.pagination a{
+    width: 10px;
+    clear: both;
+    display: block;
+    padding: 5px 0;
+}
+.pagination a:after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    content: "";
+    background: none;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: auto;
+    transition: 0.7s;
+}
+.pagination a:hover:after{
+    background: #000;
+}
+p.footer-copy {
+    font-size: 12px;
+    color: #999;
+    padding: 100px 0;
+}
